@@ -1,0 +1,273 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+
+.logo {
+    display: flex;
+    font-size: 40px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    font-weight: bold;
+    width: 30px;
+    flex: 1;
+    padding-left: 220px;
+}
+
+.first-box {
+    display: flex;
+    background-color: #1F2937;
+    border: 20px solid #1F2937;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.br{
+    border: 40px solid #1F2937;
+
+}
+
+.second-box {
+    display: flex;
+    height: 700px;
+    background-color: #1F2937;
+    flex-direction: row;
+    
+}
+
+.second-box-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.header {  
+    flex: 0.2;
+    color: #E5E7EB;
+    font-size: 30px;
+    background-color: #86cece;
+    border-radius: 25px;
+    border: 5px solid  #1F2937;
+    padding: 5px;
+}
+.header:hover{
+
+    background-color: #d3e7a5;
+}
+
+.text1 {
+    color: #F9FAF8;
+    font-size: 65px;
+    font-weight: bold; 
+    width: 700px;
+    margin-left: 220px;
+    text-align: left;
+    
+}
+
+.text2 {
+    color: #E5E7EB;
+    font-size: 30px;
+    width: 600px;
+    margin-left:220px ;
+    text-align: left;
+    
+}
+
+.button1 {
+    border: 0px solid #1F2937;
+    height: 40px;
+    width: 130px;
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 26px;
+    background-color: #86cece;
+    border-radius: 10px;
+    padding-top: 12px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #461d0d;   
+}
+
+.button1:hover{
+    background-color: #d3e7a5;
+}
+
+
+.main-image {
+    margin: 100px;
+    border: px solid rgb(115, 255, 0);
+}
+
+
+
+.text3{
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 90px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(22, 155, 165);
+    
+
+}
+
+.third-box{
+    border: 0px solid rgb(115, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    height: 230px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+} 
+
+.images{
+    border-radius: 30px;
+    border: 5px solid rgb(6, 221, 250);
+
+}
+
+.imgtxtbox{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 20px;
+
+}
+
+.imgtxt {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    width: 200px;
+}
+
+.fourth-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+   
+}
+
+.qoute1{
+    background-color: #E5E7EB;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.qoute2{
+    background-color: #019fbb;
+    height: 400px;
+    color:white;
+    padding-top: 60px;
+}
+
+.qoute3{
+    background-color: #000000;
+    height: 400px;
+    color: #019fbb;
+    padding-top: 100px;
+}
+
+
+.qoutes1{
+    font-size: 300px;
+    color: rgb(124, 124, 124);
+    height: 100px; 
+    width: 100px;
+    position: relative;
+    left: 370px;
+    bottom: 40px;
+   
+    
+}
+
+.qoutes2{
+    font-size: 0px;
+    color: grey;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 1100px;
+    bottom: 100px;
+}
+
+.qoutetxt{
+    font-size: 50px;
+    margin: 0px 0px;
+    text-align: left;
+    width: 900px;
+    position: relative;
+    left: 500px;
+}
+
+.author {
+    height: 40px;
+    width: 300px;
+    margin: 100px 0px;
+    font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    left: 1250px;
+    bottom: 200px;
+}
+
+.fifth-box{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    background-color: rgb(64, 131, 255);
+   margin: 150px 200px;
+   padding: 50px 200px;
+   border-radius: 20px;
+   text-align: left;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+
+.text4{
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+
+}
+
+.text5{
+    position: relative;
+    top: 25px;
+
+
+}
+
+.button2{
+    font-size: 26px;
+    width: 90px;
+    font-weight: bolder;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 7px 30px;
+    position: relative;
+    left: 1000px;
+    bottom: 40px;
+
+}
+
+.footer{
+    height: 70px;
+    padding-top: 50px;
+    font-size: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+
+
