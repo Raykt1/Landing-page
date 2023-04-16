@@ -10,6 +10,11 @@ body {
     
 }
 
+*{
+  flex-grow: auto;
+  flex-shrink: auto;
+}
+
 
 .logo {
     flex-wrap: wrap;
